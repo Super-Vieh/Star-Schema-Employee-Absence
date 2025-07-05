@@ -1,5 +1,31 @@
 # Inhaltsverzeichnis
 
+- Diagramme
+  - Volles Diagramm
+  - ASFT
+  - PSFT
+  - TFT
+  - Bericht
+- Tabellen Definition
+  - ASFT
+  - PSFT
+  - Berichtstabelle
+  - Hilfstabelle
+  - Abteilungsdimension
+  - Mitarbeiterdimension
+  - Zeitpunktdimension
+  - Zeitraumdimension
+- Links zu den Rohdatentabellen
+  - Employee
+  - Dimension Value
+  - Employee Absence
+  - Cause of Absence
+  - Date
+  - Base Calendar Change
+
+
+# Diagramme
+
 | Diagramm | Beschreibung |
 | :--- | :--- |
 | **Volles Diagramm** | Diagramm 1. Ist das Diagramm welches einem die Übersicht geben sollte und die für die Dimensionstabellen notwendige Rohdatentabellen zeifen|
@@ -31,13 +57,11 @@
 ![Befüllung des Berichts](./Modelle/Ba%20erstellung%20des%20Jahresberichts.drawio.svg)
 
 
-
+# Tabellendefinition
 
 ### Tabelle: ASFT
 
 `ASFT_Tabelle_Abwesenheit`
-
-
 
 | Feldname | Datentyp |
 | :--- | :--- |
@@ -144,3 +168,12 @@
 | Jahr | Integer |
 | Startdatum | Date |
 | Enddatum | Date |
+
+# Links zu den Rohdatentabellen
+
+- [Employee](https://learn.microsoft.com/en-us/dynamics365/business-central/application/base-application/table/microsoft.humanresources.employee.employee)
+- [Dimension Value](https://learn.microsoft.com/en-us/dynamics365/business-central/application/base-application/table/microsoft.finance.dimension.dimension-value)
+- [Employee Absence](https://learn.microsoft.com/en-us/dynamics365/business-central/application/base-application/table/microsoft.humanresources.absence.employee-absence)
+- [Cause of Absence](https://learn.microsoft.com/en-us/dynamics365/business-central/application/base-application/table/microsoft.humanresources.absence.cause-of-absence)
+- [Date](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-date-virtual-table)
+- [Base Calendar Change](https://learn.microsoft.com/en-us/dynamics365/business-central/application/base-application/table/microsoft.foundation.calendar.base-calendar-change)
